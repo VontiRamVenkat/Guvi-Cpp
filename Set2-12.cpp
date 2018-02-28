@@ -15,9 +15,8 @@ int main()
          digit = num % 10;
          rev = (rev * 10) + digit;
          num = num / 10;
-     } while (num != 0);
-
-     cout << " The reverse of the number is: " << rev << endl;
+     } 
+     while (num != 0);
 
      if (n == rev)
          cout << " The number is a palindrome";
