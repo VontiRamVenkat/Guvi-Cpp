@@ -3,16 +3,16 @@ using namespace std;
 
 int main()
 {
-  int num1, num2, i, num, digit, sum;
+  int a, b, i, num, digit, sum;
 
   cout << "Enter first number: ";
-  cin >> num1;
+  cin >> a;
 
   cout << "Enter second number: ";
-  cin >> num2;
+  cin >> b;
 
-  cout << "Armstrong numbers between " << num1 << " and " << num2 << " are: " << endl;
-  for(i = num1; i <= num2; i++)
+  cout << "Armstrong numbers between " << a << " and " << b << " are: " << endl;
+  for(i = a; i <= b; i++)
   {
         sum = 0;
         num = i;
