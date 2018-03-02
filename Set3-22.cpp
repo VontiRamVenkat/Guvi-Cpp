@@ -1,22 +1,21 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
 int main()
 {
-    int num,m,i;
-    float arr[100];
-    cout<<"Enter a number:\n";
-    cin>>m;
-    for(i = 0; i < m; ++i)
-    {
-       cout << i + 1 << " : ";
-       cin >> arr[i];
-    }
-for (num = 1; num <= m; num++)
-        {
-        
-       if(arr[0] < arr[i])
-           arr[0] = arr[i];
-    }
-    cout << "Largest element = " << arr[0];
-        return 0;
+	int Arr[100],n,i,large;
+	cout<<"Enter number of elements you want to insert ";
+	cin>>n;
+	for(i=0;i<n;i++)
+	{
+		cout<<"Enter element "<<i+1<<":";
+		cin>>Arr[i];
+	}
+	large=Arr[0];
+	for(i=1;i<n;i++)
+	{
+		if(Arr[i]>large)
+			large=Arr[i];
+	}
+	cout<<"\nLargest element is :"<<large;
+	return 0;
 }
