@@ -1,16 +1,15 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
 int main()
 {
-    int i,j,k,l,ans1,ans2;
+    int a,b,c,d,ans1,ans2;
     cout<<"Enter the first hour and minute:"<<endl;
-    cin>>i>>j;
+    cin>>a>>b;
     cout<<"Enter the second hour and minute:"<<endl;
-    cin>>k>>l;
-    ans1 = k - i;
-    ans2 = l - j;
+    cin>>c>>d;
+    ans1 = c - a;
+    ans2 = d - b;
     cout<<"The difference is:";
     cout<<abs(ans1)<<" "<<abs(ans2);
     return 0;
