@@ -5,9 +5,12 @@ int main()
     int num;
     cout<<"Enter a number";
     cin>>num;
-    if(num % 2 == 0){
+    if(num % 2 == 0)
+    {
         cout<<num;
-    }else{
+    }
+    else
+    {
         cout<<num-1;
     }
     return 0;
