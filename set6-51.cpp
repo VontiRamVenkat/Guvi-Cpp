@@ -1,15 +1,15 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
 int main()
 {
-    int i;
+    int a;
     cout<<"Enter a number";
-    cin>>i;
+    cin>>a;
     string str = to_string(i);
-    for(i = 0;i < str.length();i++){
-        cout<<str[i]<<" ";
+    for(a= 0;a < str.length();a++)
+    {
+        cout<<str[a]<<" ";
     }
     return 0;
 }
