@@ -1,14 +1,12 @@
 #include <iostream>
-
 using namespace std;
-
 int main()
 {
-    string str1,str2,str3;
+    string a,b,c;
     cout<<"Enter the two strings"<<endl;
-    cin>>str1>>str2;
-    str3 = str1+str2;
-    cout<<str3;
+    cin>>a>>b;
+    c= a+b;
+    cout<<c;
     return 0;
 }
 
