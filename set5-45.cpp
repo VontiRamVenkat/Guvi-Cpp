@@ -1,11 +1,10 @@
 #include <iostream>
 using namespace std;
-
 int main()
 {
-    string str;
+    string a;
     cout<<"Enter the number: ";
-    cin>>str;
-    cout<<"Number of digits :"<<str.length();
+    cin>>a;
+    cout<<"Number of digits :"<<a.length();
     return 0;
 }
