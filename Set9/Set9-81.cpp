@@ -2,17 +2,17 @@
 using namespace std;
 int main()
 {
-  int n,m,res;
-  cout<<"Enter n and m:";
-  cin>>n>>m;
-  if(n>m)
+  int a,b,res;
+  cout<<"Enter a and b:";
+  cin>>a>>b;
+  if(a>b)
   {
-      res=n-m;
+      res=a-b;
       cout<<res;
   }
   else
   {
-      res=m-n;
+      res=a-b;
       cout<<res;
   }
       return 0;
