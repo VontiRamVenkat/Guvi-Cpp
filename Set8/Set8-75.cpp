@@ -13,7 +13,6 @@ int main()
        s[m-1]='*';
        s[m]='*';
        cout<<s;   
-      
     }
   else
     {
