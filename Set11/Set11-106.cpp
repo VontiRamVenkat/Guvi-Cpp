@@ -2,13 +2,13 @@
 #include <cmath>
 using namespace std;
 int main(){
-    int i,j,k;
-    cin>>i;
-    j = i + 64;
-    k = i + 96;
+    int a,b,C;
+    cin>>A;
+    b = a + 64;
+    c = a + 96;
     char ch,ch1;
-    ch = j;
-    ch1 = k;
+    ch = b;
+    ch1 = c;
     cout<<ch<<" "<<ch1;
   return 0;
 }
