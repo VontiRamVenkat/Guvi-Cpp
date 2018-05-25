@@ -1,17 +1,17 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int i,k,count = 0;
-    cin>>i>>k;
-    int a[i];
-    for(int j = 0;j < i;j++){
+    int a,b,count = 0;
+    cin>>a>>b;
+    int n[a];
+    for(int b = 0;b < a;b++){
         cin>>a[j];
     }
-    for(int j = 0;j < i;j++){
-        if(a[j] % 2 != 0){
+    for(int b = 0;b < a;b++){
+        if(n[b] % 2 != 0){
             count++;
             if(count == k){
-                cout<<a[j];
+                cout<<n[b];
                 break;
             }
         }
