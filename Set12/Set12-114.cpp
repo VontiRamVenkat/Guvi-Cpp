@@ -5,12 +5,12 @@ int main(){
     cin>>a>>b;
     int n[a];
     for(int b = 0;b < a;b++){
-        cin>>a[j];
+        cin>>n[b];
     }
     for(int b = 0;b < a;b++){
         if(n[b] % 2 != 0){
             count++;
-            if(count == k){
+            if(count == b){
                 cout<<n[b];
                 break;
             }
